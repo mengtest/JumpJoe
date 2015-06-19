@@ -1,0 +1,265 @@
+fileFormatVersion: 2
+guid: 4f74e73bd6d1a7b4384578717ff50a58
+timeCreated: 1433989389
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: EnemyFull
+    21300002: JoeFull
+    21300004: Title
+    21300006: Exit
+    21300008: Platform
+    21300010: EnemyHead
+    21300012: JoeHead
+    21300014: JoeLeftArm
+    21300016: JoeBody
+    21300018: JoeRightArm
+    21300020: EnemyLeftLeg
+    21300022: EnemyRightLeg
+    21300024: JoeLeftLeg
+    21300026: JoeRightLeg
+    21300028: Title2
+    21300030: EnemyLeftArm
+    21300032: EnemyBody
+    21300034: EnemyRightArm
+    21300036: Alpha
+    21300038: White
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 512
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: EnemyFull
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 468
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JoeFull
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 468
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Title
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 454
+        width: 207
+        height: 46
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Exit
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 420
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Platform
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 432
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyHead
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 438
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JoeHead
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 437
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JoeLeftArm
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 429
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JoeBody
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 423
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JoeRightArm
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 429
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyLeftLeg
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 410
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyRightLeg
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 409
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JoeLeftLeg
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 411
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JoeRightLeg
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 410
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Title2
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 328
+        width: 309
+        height: 76
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyLeftArm
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 428
+        width: 9
+        height: 3
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyBody
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 422
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyRightArm
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 428
+        width: 9
+        height: 3
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: White
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 355
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
