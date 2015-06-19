@@ -35,6 +35,7 @@ public class Player : MonoBehaviour
 			_controller.SetHorizontalForce(Mathf.Lerp(_controller.Velocity.x, _normalizedHorizontalSpeed * MaxSpeed, Time.deltaTime * movementFactor));	
 		}
 		
+		
 	}
 	
 	public void FinishLevel()
