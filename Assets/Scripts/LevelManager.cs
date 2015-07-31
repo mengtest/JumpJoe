@@ -93,7 +93,9 @@ public class LevelManager : MonoBehaviour
 	{
 		Player.FinishLevel();
 		GameManager.Instance.Level++;
-		GameManager.Instance.AddPoints(CurrentTimeBonus);
+		
+		var points = CurrentTimeBonus + 500;
+		GameManager.Instance.AddPoints(points);
 		
 		if (string.IsNullOrEmpty(levelName)) 
 		{
@@ -111,7 +113,7 @@ public class LevelManager : MonoBehaviour
 		
 			yield return new WaitForSeconds(1);
 			
-			FloatingText.Show(string.Format("{0} points!", GameManager.Instance.Points), "CheckPointText", new CenteredTextPositioner(.1f));
+			FloatingText.Show(string.Format("{0} points!", points), "CheckPointText", new CenteredTextPositioner(.1f));
 			yield return new WaitForSeconds(5f);
 			
 			Application.LoadLevel(levelName);
@@ -120,8 +122,11 @@ public class LevelManager : MonoBehaviour
 	
 	public void KillPlayer()
 	{
-		FloatingText.Show("DEATH", "PointsText", new FromWorldPointTextPositioner(Camera.GetComponent<Camera>(), Player.transform.position, 1.5f, 50));
-		StartCoroutine(KillPlayerCo());
+		if (!Player.IsDead)
+		{
+			FloatingText.Show("DEATH", "PointsText", new FromWorldPointTextPositioner(Camera.GetComponent<Camera>(), Player.transform.position, 1.5f, 50));
+			StartCoroutine(KillPlayerCo());
+		}
 	}
 	
 	private IEnumerator KillPlayerCo()
@@ -131,9 +136,8 @@ public class LevelManager : MonoBehaviour
 		yield return new WaitForSeconds(2);
 		
 		Camera.IsFollowing = true;
-		
 		GameManager.Instance.Lives--;
-		
+				
 		if (GameManager.Instance.Lives == 0)
 		{
 			//Take player back to start screen

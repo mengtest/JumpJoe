@@ -11,7 +11,6 @@ public class FinishLevel : MonoBehaviour
 		{
 			return;
 		}
-		
 		LevelManager.Instance.GotoNextLevel(LevelName);
 	}
 	
