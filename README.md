@@ -1,2 +1,3 @@
-# jump-joe
-Jump Joe is a game programmed in Unity
+# JumpJoe
+Platformer made in Unity 5
+JumpJoe
