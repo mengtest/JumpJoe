@@ -20,3 +20,6 @@ sysinfo.txt
 Library/
 Build/
 Code
+.settings/
+ProjectSettings/
+Temp/
